@@ -11,4 +11,12 @@ public class Perimetercalculation {
         Assertions.assertEquals(expectedvalue,currentvalue);
     }
 
+    @Test
+    void tocheckperimeterofrectanglewithlengthfiveandbreadthsix()
+    {
+        Rectangle rectangle = new Rectangle(5,6);
+        int currentvalue = rectangle.perimeter();
+        int expectedvalue = 22;
+        Assertions.assertEquals(expectedvalue,currentvalue);
+    }
 }

@@ -12,5 +12,13 @@ public class Areacalculation {
         Assertions.assertEquals(expectedvalue,currentvalue);
     }
 
+    @Test
+    void tocheckperimeterofrectanglewithlengthfortyfiveandbreadththirtysix()
+    {
+        Rectangle rectangle = new Rectangle(5,6);
+        int currentvalue = rectangle.area();
+        int expectedvalue = 30;
+        Assertions.assertEquals(expectedvalue,currentvalue);
+    }
 
 }
